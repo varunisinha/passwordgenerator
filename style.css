@@ -1,0 +1,20 @@
+
+.input-box{
+  padding-top: 60px;
+  padding-left: 60px;
+  width: 800px;
+  height: 500px;
+  border-width: 2px;
+  border-style: dotted;
+}
+
+
+.input-text{
+  width: 700px;
+  height: 400px;
+  background-color: lightgray;
+}
+
+h3{
+  color:gray;
+}
