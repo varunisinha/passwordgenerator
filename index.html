@@ -5,6 +5,7 @@
   <title>Password Generator</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <div class = "outer-box">
@@ -16,17 +17,30 @@
     <div class = "input-box">
      
 
-      <form>
-        <input type ="text" class ="input-text">
-        <input type ="submit" value="Generate Password">
-
-      </form>
+      <hr>
+    
+      <textarea readonly id="password" placeholder="Your Secure Password"
+          aria-label="Generated Password"></textarea>
+      <hr>
+     
+      <div id="btn">
+         
+          <button id="generate">Generate
+              Password</button>
+         
+    
 
     </div>
   </div>
 
 </div>
 
-
+<script src= "script.js"></script>
 </body>
 </html>
+
+
+
+
+
+

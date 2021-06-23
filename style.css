@@ -1,4 +1,6 @@
 
+
+
 .input-box{
   padding-top: 60px;
   padding-left: 60px;
@@ -6,6 +8,7 @@
   height: 500px;
   border-width: 2px;
   border-style: dotted;
+  text-align: center;
 }
 
 
@@ -13,8 +16,18 @@
   width: 700px;
   height: 400px;
   background-color: lightgray;
+  text-align: center;
 }
 
 h3{
   color:gray;
+  text-align: center;
+}
+
+#generate{
+  width: 250px;
+  background-color: red;
+  height: 40px;
+  align-items: center;
+
 }
